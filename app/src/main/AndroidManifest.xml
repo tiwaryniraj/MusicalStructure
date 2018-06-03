@@ -17,15 +17,20 @@
             </intent-filter>
         </activity>
         <activity android:name=".PlaylistActivity"
-            android:label="PlayLists"/>
+            android:label="PlayLists"
+            android:parentActivityName=".MainActivity"/>
         <activity android:name=".ArtistActivity"
-            android:label="Artists"/>
+            android:label="Artists"
+            android:parentActivityName=".MainActivity"/>
         <activity android:name=".AlbumActivity"
-            android:label="Album"/>
+            android:label="Album"
+            android:parentActivityName=".MainActivity"/>
         <activity android:name=".SongActivity"
-            android:label="Songs"/>
+            android:label="Songs"
+            android:parentActivityName=".MainActivity"/>
         <activity android:name=".PlayingActivity"
-            android:label="Now Playing!"></activity>
+            android:label="Now Playing!"
+            android:parentActivityName=".MainActivity"></activity>
     </application>
 
 </manifest>
